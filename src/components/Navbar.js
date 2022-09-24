@@ -13,8 +13,9 @@ export const Navbar = () => {
         <div className="links md:mt-1 lg:mt-0">
           <Link to="/">Home</Link>
           <Link to="#about">About</Link>
+          <Link to="#progress">Progress</Link>
           <Link to="#projects">Projects</Link>
-          <Link to="#contact">Contact</Link>
+          {/* <Link to="#contact">Contact</Link> */}
         </div>
         <div className="button mt-5 md:mt-3 lg:mt-0">
           <button>Let's Talk</button>
