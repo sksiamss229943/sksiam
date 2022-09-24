@@ -20,8 +20,8 @@ export default function Home() {
   }, [])
   return (
     <>
+      <Navbar />
       <Layout>
-        <Navbar />
         <div className="home_container mt-5 md:mt-9 lg:mt-auto grid grid-cols-1 text-center justify-items-center items-center lg:grid-cols-2 lg:text-left gap-5">
           <section className="lg:bg-[#F47400] lg:text-[#f8f8f8] lg:w-full lg:h-full lg:flex lg:flex-col lg:justify-center text-center rounded-br-3xl">
             <h1 className="text-4xl font-bold mb-3 md:mt-3 lg:mt-0">
